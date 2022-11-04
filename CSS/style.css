@@ -1,5 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("./menu.css");
+@import url("./introducao.css");
 
-h1 {
-  font-family: Poppins;
+body,
+h1,
+h2,
+p,
+a,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Poppins, Helvetica, Arial;
+  color: #222;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+* {
+  box-sizing: border-box;
 }
