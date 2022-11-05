@@ -1,0 +1,35 @@
+.introducao {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: regular;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 10px;
+  border-bottom: 2px solid #2c70ff;
+}
+.sobre {
+  max-width: 960px;
+  margin: 0 auto;
+  border-bottom: 2px solid #2c70ff;
+  padding: 60px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+.info h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+.info p {
+  font-size: 1.25;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
+}
