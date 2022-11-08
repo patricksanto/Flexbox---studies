@@ -50,6 +50,15 @@
   border: 0px;
   padding: 15px 10px;
 }
+.newsletter-form button:hover {
+  transition: 400ms;
+  background: transparent;
+  padding: 11px 6px 11px 10px;
+  border-top: 4px solid lightblue;
+  border-right: 4px solid lightblue;
+  border-bottom: 4px solid lightblue;
+  color: lightblue;
+}
 @media (max-width: 600px) {
   .newsletter-form button {
     font-size: 1.5em;
